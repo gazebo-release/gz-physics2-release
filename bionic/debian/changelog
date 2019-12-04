@@ -1,6 +1,6 @@
-ignition-physics2 (1.999.999-1~bionic) bionic; urgency=medium
+ignition-physics2 (2.0.0~pre1-1~bionic) bionic; urgency=medium
 
-  * Stub to be removed after first entry
+  * ignition-physics2 2.0.0~pre1-1 release
 
- -- Jose Luis Rivero <jrivero@osrfoundation.org>  Thu, 05 Dec 2019 00:14:05 +0100
+ -- Jose Luis Rivero <jrivero@osrfoundation.org>  Thu, 05 Dec 2019 00:18:53 +0100
 
