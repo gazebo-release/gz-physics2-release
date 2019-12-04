@@ -1,4 +1,4 @@
-Source: ignition-physics
+Source: ignition-physics2
 Standards-Version: 3.9.8
 Maintainer: Jose Luis Rivero <jrivero@osrfoundation.org>
 Section: science
@@ -17,17 +17,17 @@ Build-Depends: cmake,
                libdart6-utils-dev (>> 6.9.9999),
                libdart6-utils-urdf-dev (>> 6.9.9999),
                libsdformat8-dev
-Vcs-Browser: https://bitbucket.org/ignitionrobotics/ign-physics-release
-Vcs-Hg: https://bitbucket.org/ignitionrobotics/ign-physics-release
+Vcs-Browser: https://github.com/ignition-release/ign-physics2-release
+Vcs-Hg: https://github.com/ignition-release/ign-physics2-release
 Homepage: http://ignitionrobotics.org/
 
-Package: libignition-physics-core-dev
+Package: libignition-physics2-core-dev
 Architecture: any
 Section: libdevel
 Depends: libignition-cmake2-dev,
          libignition-math6-dev,
          libignition-plugin-dev,
-         libignition-physics (= ${binary:Version}),
+         libignition-physics2 (= ${binary:Version}),
          ${misc:Depends}
 Multi-Arch: same
 Description: Ignition Physics classes and functions for robot apps - Development files
@@ -36,13 +36,13 @@ Description: Ignition Physics classes and functions for robot apps - Development
   .
   Core component, development files
 
-Package: libignition-physics-sdf-dev
+Package: libignition-physics2-sdf-dev
 Architecture: any
 Section: libdevel
-Depends: libignition-physics-core-dev,
+Depends: libignition-physics2-core-dev,
          libignition-cmake2-dev,
          libsdformat8-dev,
-         libignition-physics (= ${binary:Version}),
+         libignition-physics2 (= ${binary:Version}),
          ${misc:Depends}
 Multi-Arch: same
 Description: Ignition Physics classes and functions for robot apps - SDF Dev files
@@ -51,13 +51,13 @@ Description: Ignition Physics classes and functions for robot apps - SDF Dev fil
   .
   SDF component, development files
 
-Package: libignition-physics-mesh-dev
+Package: libignition-physics2-mesh-dev
 Architecture: any
 Section: libdevel
-Depends: libignition-physics-core-dev,
+Depends: libignition-physics2-core-dev,
          libignition-cmake2-dev,
          libignition-common3-graphics-dev,
-         libignition-physics (= ${binary:Version}),
+         libignition-physics2 (= ${binary:Version}),
          ${misc:Depends}
 Multi-Arch: same
 Description: Ignition Physics classes and functions for robot apps - Mesh Dev files
@@ -66,7 +66,7 @@ Description: Ignition Physics classes and functions for robot apps - Mesh Dev fi
   .
   Mesh component, development files
 
-Package: libignition-physics
+Package: libignition-physics2
 Architecture: any
 Section: libs
 Pre-Depends: ${misc:Pre-Depends}
@@ -78,12 +78,12 @@ Description: Ignition Physics classes and functions for robot apps - Shared libr
   .
   Main shared library
 
-Package: libignition-physics-dartsim-dev
+Package: libignition-physics2-dartsim-dev
 Architecture: any
 Section: libdevel
-Depends: libignition-physics-core-dev,
-         libignition-physics-sdf-dev,
-         libignition-physics-mesh-dev,
+Depends: libignition-physics2-core-dev,
+         libignition-physics2-sdf-dev,
+         libignition-physics2-mesh-dev,
          libignition-cmake2-dev,
          libignition-common3-graphics-dev,
          libignition-math6-dev,
@@ -99,7 +99,7 @@ Depends: libignition-physics-core-dev,
          libdart6-external-ikfast-dev (>> 6.9.9999),
          libdart6-collision-bullet-dev (>> 6.9.9999),
          libsdformat8-dev,
-         libignition-physics-dartsim (= ${binary:Version}),
+         libignition-physics2-dartsim (= ${binary:Version}),
          ${misc:Depends}
 Multi-Arch: same
 Description: Ignition Physics classes and functions for robot apps - Development files
@@ -108,7 +108,7 @@ Description: Ignition Physics classes and functions for robot apps - Development
   .
   Dartsim component, development files
 
-Package: libignition-physics-dartsim
+Package: libignition-physics2-dartsim
 Architecture: any
 Section: libs
 Pre-Depends: ${misc:Pre-Depends}
@@ -120,13 +120,13 @@ Description: Ignition Physics classes and functions for robot apps - Dartsim lib
   .
   DARTSim component shared library
 
-Package: libignition-physics-dev
+Package: libignition-physics2-dev
 Architecture: any
 Section: libdevel
-Depends: libignition-physics-core-dev,
-         libignition-physics-dartsim-dev,
-         libignition-physics-mesh-dev,
-         libignition-physics-sdf-dev,
+Depends: libignition-physics2-core-dev,
+         libignition-physics2-dartsim-dev,
+         libignition-physics2-mesh-dev,
+         libignition-physics2-sdf-dev,
          ${misc:Depends}
 Multi-Arch: same
 Description: Ignition Physics classes and functions for robot apps - Metapackage
