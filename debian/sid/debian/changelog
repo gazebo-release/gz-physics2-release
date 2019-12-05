@@ -1,3 +1,9 @@
+ignition-physics2 (2.0.0~pre1-3~sid) sid; urgency=medium
+
+  * ignition-physics2 2.0.0~pre1-3 release
+
+ -- Louise Poubel <louise@openrobotics.org>  Wed, 04 Dec 2019 22:06:20 -0800
+
 ignition-physics2 (2.0.0~pre1-2~sid) sid; urgency=medium
 
   * ignition-physics2 2.0.0~pre1-2 release
