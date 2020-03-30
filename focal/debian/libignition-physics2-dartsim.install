@@ -1,1 +1,1 @@
-../../ubuntu/debian/libignition-physics-dartsim.install
+usr/lib/*/libignition-physics[0-99]-dartsim*.so.*
