@@ -1,3 +1,9 @@
+ignition-physics2 (2.2.0-1~focal) focal; urgency=medium
+
+  * ignition-physics2 2.2.0-1 release
+
+ -- Louise Poubel <louise@openrobotics.org>  Fri, 31 Jul 2020 15:56:04 -0700
+
 ignition-physics2 (2.1.0-2~focal) focal; urgency=medium
 
   * ignition-physics2 2.1.0-2 release
