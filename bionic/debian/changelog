@@ -1,3 +1,9 @@
+ignition-physics2 (2.4.0-1~bionic) bionic; urgency=medium
+
+  * ignition-physics2 2.4.0-1 release
+
+ -- Louise Poubel <louise@openrobotics.org>  Wed, 14 Apr 2021 19:00:18 -0700
+
 ignition-physics2 (2.3.0-1~bionic) bionic; urgency=medium
 
   * ignition-physics2 2.3.0-1 release
