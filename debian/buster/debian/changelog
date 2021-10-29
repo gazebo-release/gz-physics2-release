@@ -1,3 +1,9 @@
+ignition-physics2 (2.5.0~pre1-1~buster) buster; urgency=medium
+
+  * ignition-physics2 2.5.0~pre1-1 release
+
+ -- Addisu Z. Taddese <addisu@openrobotics.org>  Thu, 28 Oct 2021 20:47:35 -0500
+
 ignition-physics2 (2.4.0-1~buster) buster; urgency=medium
 
   * ignition-physics2 2.4.0-1 release
