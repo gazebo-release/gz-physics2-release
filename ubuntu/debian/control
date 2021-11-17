@@ -42,7 +42,7 @@ Description: Ignition Physics classes and functions for robot apps - Development
 Package: libignition-physics2-sdf-dev
 Architecture: any
 Section: libdevel
-Depends: libignition-physics2-core-dev,
+Depends: libignition-physics2-core-dev (= ${binary:Version}),
          libignition-cmake2-dev,
          libsdformat9-dev,
          libignition-physics2 (= ${binary:Version}),
@@ -57,7 +57,7 @@ Description: Ignition Physics classes and functions for robot apps - SDF Dev fil
 Package: libignition-physics2-mesh-dev
 Architecture: any
 Section: libdevel
-Depends: libignition-physics2-core-dev,
+Depends: libignition-physics2-core-dev (= ${binary:Version}),
          libignition-cmake2-dev,
          libignition-common3-graphics-dev,
          libignition-physics2 (= ${binary:Version}),
@@ -84,9 +84,9 @@ Description: Ignition Physics classes and functions for robot apps - Shared libr
 Package: libignition-physics2-dartsim-dev
 Architecture: any
 Section: libdevel
-Depends: libignition-physics2-core-dev,
-         libignition-physics2-sdf-dev,
-         libignition-physics2-mesh-dev,
+Depends: libignition-physics2-core-dev (= ${binary:Version}),
+         libignition-physics2-sdf-dev (= ${binary:Version}),
+         libignition-physics2-mesh-dev (= ${binary:Version}),
          libignition-cmake2-dev,
          libignition-common3-graphics-dev,
          libignition-math6-dev,
@@ -124,9 +124,9 @@ Description: Ignition Physics classes and functions for robot apps - Dartsim lib
 Package: libignition-physics2-tpe-dev
 Architecture: any
 Section: libdevel
-Depends: libignition-physics2-core-dev,
-         libignition-physics2-sdf-dev,
-         libignition-physics2-mesh-dev,
+Depends: libignition-physics2-core-dev (= ${binary:Version}),
+         libignition-physics2-sdf-dev (= ${binary:Version}),
+         libignition-physics2-mesh-dev (= ${binary:Version}),
          libignition-cmake2-dev,
          libignition-math6-dev,
          libignition-math6-eigen3-dev,
@@ -184,12 +184,12 @@ Description: Ignition Physics classes and functions for robot apps - Dartsim lib
 Package: libignition-physics2-dev
 Architecture: any
 Section: libdevel
-Depends: libignition-physics2-core-dev,
-         libignition-physics2-dartsim-dev,
-         libignition-physics2-mesh-dev,
-         libignition-physics2-sdf-dev,
-         libignition-physics2-tpe-dev,
-         libignition-physics2-tpelib-dev,
+Depends: libignition-physics2-core-dev (= ${binary:Version}),
+         libignition-physics2-dartsim-dev (= ${binary:Version}),
+         libignition-physics2-mesh-dev (= ${binary:Version}),
+         libignition-physics2-sdf-dev (= ${binary:Version}),
+         libignition-physics2-tpe-dev (= ${binary:Version}),
+         libignition-physics2-tpelib-dev (= ${binary:Version}),
          ${misc:Depends}
 Multi-Arch: same
 Description: Ignition Physics classes and functions for robot apps - Metapackage
