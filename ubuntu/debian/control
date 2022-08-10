@@ -20,9 +20,9 @@ Build-Depends: cmake,
                libdart6-utils-dev (<< 6.10.0) | libdart-utils-dev (<< 6.10.0),
                libdart6-utils-urdf-dev (<< 6.10.0) | libdart-utils-urdf-dev (<< 6.10.0),
                libsdformat9-dev
-Vcs-Browser: https://github.com/ignition-release/ign-physics2-release
-Vcs-Hg: https://github.com/ignition-release/ign-physics2-release
-Homepage: http://ignitionrobotics.org/
+Vcs-Browser: https://github.com/gazebosim/gz-physics
+Vcs-Git: https://github.com/gazebosim/gz-physics
+Homepage: http://gazebosim.org/
 
 Package: libignition-physics2-core-dev
 Architecture: any
@@ -33,8 +33,8 @@ Depends: libignition-cmake2-dev,
          libignition-physics2 (= ${binary:Version}),
          ${misc:Depends}
 Multi-Arch: same
-Description: Ignition Physics classes and functions for robot apps - Development files
-  Ignition Physics is a component in the ignition framework, a set of libraries
+Description: Gazebo Physics classes and functions for robot apps - Development files
+  Gazebo Physics is a component in the Gazebo framework, a set of libraries
   designed to rapidly develop robot applications.
   .
   Core component, development files
@@ -48,8 +48,8 @@ Depends: libignition-physics2-core-dev (= ${binary:Version}),
          libignition-physics2 (= ${binary:Version}),
          ${misc:Depends}
 Multi-Arch: same
-Description: Ignition Physics classes and functions for robot apps - SDF Dev files
-  Ignition Physics is a component in the ignition framework, a set of libraries
+Description: Gazebo Physics classes and functions for robot apps - SDF Dev files
+  Gazebo Physics is a component in the Gazebo framework, a set of libraries
   designed to rapidly develop robot applications.
   .
   SDF component, development files
@@ -63,8 +63,8 @@ Depends: libignition-physics2-core-dev (= ${binary:Version}),
          libignition-physics2 (= ${binary:Version}),
          ${misc:Depends}
 Multi-Arch: same
-Description: Ignition Physics classes and functions for robot apps - Mesh Dev files
-  Ignition Physics is a component in the ignition framework, a set of libraries
+Description: Gazebo Physics classes and functions for robot apps - Mesh Dev files
+  Gazebo Physics is a component in the Gazebo framework, a set of libraries
   designed to rapidly develop robot applications.
   .
   Mesh component, development files
@@ -75,8 +75,8 @@ Section: libs
 Pre-Depends: ${misc:Pre-Depends}
 Depends: ${shlibs:Depends}, ${misc:Depends}
 Multi-Arch: same
-Description: Ignition Physics classes and functions for robot apps - Shared library
-  Ignition Physics is a component in the ignition framework, a set of libraries
+Description: Gazebo Physics classes and functions for robot apps - Shared library
+  Gazebo Physics is a component in the Gazebo framework, a set of libraries
   designed to rapidly develop robot applications.
   .
   Main shared library
@@ -103,8 +103,8 @@ Depends: libignition-physics2-core-dev (= ${binary:Version}),
          libignition-physics2-dartsim (= ${binary:Version}),
          ${misc:Depends}
 Multi-Arch: same
-Description: Ignition Physics classes and functions for robot apps - Development files
-  Ignition Physics is a component in the ignition framework, a set of libraries
+Description: Gazebo Physics classes and functions for robot apps - Development files
+  Gazebo Physics is a component in the Gazebo framework, a set of libraries
   designed to rapidly develop robot applications.
   .
   Dartsim component, development files
@@ -115,8 +115,8 @@ Section: libs
 Pre-Depends: ${misc:Pre-Depends}
 Depends: ${shlibs:Depends}, ${misc:Depends}
 Multi-Arch: same
-Description: Ignition Physics classes and functions for robot apps - Dartsim library
-  Ignition Physics is a component in the ignition framework, a set of libraries
+Description: Gazebo Physics classes and functions for robot apps - Dartsim library
+  Gazebo Physics is a component in the Gazebo framework, a set of libraries
   designed to rapidly develop robot applications.
   .
   DARTSim component shared library
@@ -135,8 +135,8 @@ Depends: libignition-physics2-core-dev (= ${binary:Version}),
          libignition-physics2-tpe (= ${binary:Version}),
          ${misc:Depends}
 Multi-Arch: same
-Description: Ignition Physics classes and functions for robot apps - Development files
-  Ignition Physics is a component in the ignition framework, a set of libraries
+Description: Gazebo Physics classes and functions for robot apps - Development files
+  Gazebo Physics is a component in the Gazebo framework, a set of libraries
   designed to rapidly develop robot applications.
   .
   TPE plugin component, development files
@@ -147,8 +147,8 @@ Section: libs
 Pre-Depends: ${misc:Pre-Depends}
 Depends: ${shlibs:Depends}, ${misc:Depends}
 Multi-Arch: same
-Description: Ignition Physics classes and functions for robot apps - Dartsim library
-  Ignition Physics is a component in the ignition framework, a set of libraries
+Description: Gazebo Physics classes and functions for robot apps - Dartsim library
+  Gazebo Physics is a component in the Gazebo framework, a set of libraries
   designed to rapidly develop robot applications.
   .
   TPE plugin component shared library
@@ -163,8 +163,8 @@ Depends: libignition-cmake2-dev,
          libignition-physics2-tpelib (= ${binary:Version}),
          ${misc:Depends}
 Multi-Arch: same
-Description: Ignition Physics classes and functions for robot apps - Development files
-  Ignition Physics is a component in the ignition framework, a set of libraries
+Description: Gazebo Physics classes and functions for robot apps - Development files
+  Gazebo Physics is a component in the Gazebo framework, a set of libraries
   designed to rapidly develop robot applications.
   .
   TPE library component, development files
@@ -175,8 +175,8 @@ Section: libs
 Pre-Depends: ${misc:Pre-Depends}
 Depends: ${shlibs:Depends}, ${misc:Depends}
 Multi-Arch: same
-Description: Ignition Physics classes and functions for robot apps - Dartsim library
-  Ignition Physics is a component in the ignition framework, a set of libraries
+Description: Gazebo Physics classes and functions for robot apps - Dartsim library
+  Gazebo Physics is a component in the Gazebo framework, a set of libraries
   designed to rapidly develop robot applications.
   .
   TPE library component shared library
@@ -192,8 +192,8 @@ Depends: libignition-physics2-core-dev (= ${binary:Version}),
          libignition-physics2-tpelib-dev (= ${binary:Version}),
          ${misc:Depends}
 Multi-Arch: same
-Description: Ignition Physics classes and functions for robot apps - Metapackage
-  Ignition Physics is a component in the ignition framework, a set of libraries
+Description: Gazebo Physics classes and functions for robot apps - Metapackage
+  Gazebo Physics is a component in the Gazebo framework, a set of libraries
   designed to rapidly develop robot applications.
   .
   Metapackage, all development files
