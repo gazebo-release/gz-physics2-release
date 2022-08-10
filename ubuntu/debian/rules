@@ -16,7 +16,7 @@ override_dh_install:
 	dh_missing --list-missing
 
 # test cannot run in parallel
-# arm64 problems https://github.com/ignitionrobotics/ign-physics/issues/70
+# arm64 problems https://github.com/gazebosim/gz-physics/issues/70
 override_dh_auto_test:
 ifeq ($(DEB_HOST_ARCH),arm64)
 	true
