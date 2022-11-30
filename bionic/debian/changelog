@@ -1,3 +1,9 @@
+ignition-physics2 (2.6.0-1~bionic) bionic; urgency=medium
+
+  * ignition-physics2 2.6.0-1 release
+
+ -- Nate Koenig <nate@openrobotics.org>  Wed, 30 Nov 2022 11:01:13 -0800
+
 ignition-physics2 (2.6.0~pre1-1~bionic) bionic; urgency=medium
 
   * ignition-physics2 2.6.0~pre1-1 release
